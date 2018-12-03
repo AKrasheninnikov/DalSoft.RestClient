@@ -470,7 +470,7 @@ namespace DalSoft.RestClient.Test.Integration
             );
 
             Assert.That(result.HttpResponseMessage.StatusCode, Is.EqualTo(HttpStatusCode.OK));
-            Assert.That(result.ToString(), Does.Contain("http://www.directupload.net/file/d/"));
+            Assert.That(result.ToString(), Does.Contain("Your picture was uploaded successfully!"));
         }
         
         [Test]

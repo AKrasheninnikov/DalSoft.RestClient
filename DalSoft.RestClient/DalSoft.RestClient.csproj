@@ -6,7 +6,7 @@
       Chain methods to create the uri and verb for example new RestClient("https://jsonplaceholder.typicode.com").Posts(1).Get() 
       Explicit and implicit casting from dynamic for example Post post = RestClient("https://jsonplaceholder.typicode.com").Posts(1).Get()
     </Description>
-    <VersionPrefix>3.3.1</VersionPrefix>
+    <VersionPrefix>3.3.2</VersionPrefix>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <AssemblyName>DalSoft.RestClient</AssemblyName>
     <PackageId>DalSoft.RestClient</PackageId>
@@ -14,8 +14,7 @@
     <Owners>DalSoft</Owners>
     <Authors>DalSoft, joakimjm</Authors>
     <PackageReleaseNotes>
-      * You can now provide JsonSerializerSettings to DalSoft.RestClient
-      * Twitter handler - full Twitter SDK using DalSoft.RestClient
+      JsonSerializerSettings support for request object serialization (response serialization was added in 3.3.1)
     </PackageReleaseNotes>
     <PackageIconUrl>https://dalsoft.co.uk/images/icon.png</PackageIconUrl>
     <PackageProjectUrl>https://restclient.dalsoft.io</PackageProjectUrl>
